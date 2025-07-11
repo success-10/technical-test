@@ -59,3 +59,11 @@ GET /api/retail/search?state=Lagos&product=Petrol&page=1&limit=10
 Get product analysis with search:
 
 GET /api/retail/search-product?search=AGO&page=1&limit=10
+
+8. PORT=5000
+MONGO_URI=your_mongo_connection_string
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+
